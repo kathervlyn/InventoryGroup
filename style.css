@@ -1,0 +1,69 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+#bodyContainer {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(2, 50vw);
+    align-content: center;
+}
+
+#chestBox {
+    text-align: center;
+}
+
+#chestContainer {
+    border: 2px Solid DarkGray;
+    background-color: gray;
+    margin: 10px;
+    padding: 5px;
+    float: right;
+    justify-content: center;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 10%;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#inventoryContainer {
+    border: 1px solid DarkGray;
+    background-color: gray;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    justify-content: center;
+}
+
+#inventoryContent {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 10%;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#inventory {
+    border: 2px solid black;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+#closeOpen {
+    background-color: #fff;
+    float: right;
+    border: none;
+}
+
+button {
+    color: blue;
+    font-weight: bold;
+    font-size: medium;
+}
